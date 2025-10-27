@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no">
+<head> <!--Informasjon som ikke åpent vises til brukeren(med unntak av title og favicon)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Marius</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header id="header1"> <!--Den øverste navigasjonslinjen-->
+        <ul> <!--Gir tag til spesifikke elementer så jeg kan konfigurere dem individuelt. Gidde dem også en "cursor style" for å vise et forskjellig ikon når du har musen på elementet.-->
+            <li><a href="om_meg.html" style="cursor:help" class="hyperlink">Om meg</a></li> 
+            <li class="brackets">|</li>
+            <li><a href="kontakt.html" style="cursor:help" class="hyperlink">Kontakt</a></li>
+            <li class="brackets">|</li>
+            <li><a href="index.html" style="cursor:help" class="hyperlink">Hjemside</a></li>
+            <li class="brackets">|</li>
+            <li><a href="en/my_work.html" style="cursor:help" class="hyperlink">English</a></li>
+        </ul>
+    </header>
+    <div class="main"> <!--Selve containeren midt i nettsiden-->
+        <h1>Mitt arbeid<br><br> </h1>
+        <hr>
+        <p>Jeg har hatt koding som en hobby veldig lenge nå, og jeg har laget noen få prosjekter. Jeg har kodet mest i HTML, CSS, Python og Batch(systemkode). Jeg har et eksempel på mitt arbeid i HTML og CSS. Sjekk lenken nedenfor! Den nettsiden lagde jeg når jeg var 14 år gammel, så derfor har den mye utdatert info. </p>
+        <a href="https://mariusjohansen.netlify.app" target="0" style="cursor:help">Nettsiden min!</a> <!--Target="0" for å sende brukeren til en ny fane istedenfor å bytte mellom dem i samme fane-->
+        <hr>
+        <p>På nettsiden min, har jeg en fil som simulerer en DVD logo som beveger seg over skjermen. Jeg har lagt til et lite bilde under denne teksten!</p>
+        <img src="images/dvd.png" alt="Bilde av et pygame spill">
+        <hr>
+        <p>Jeg har også erfaring i Blender, som er et 3D modelleringsprogram. Jeg har prøvd meg på de forskjellige verktøyene som var tilgjengelig, og jeg har greid å lage et relativt realistisk motorsykkelhjul. <br>Hjulet er modellert etter en Suzuki GSX R125 lettmotorsykkel, og bildet ligger nedenfor.</p>
+        <img src="images/dekk.png" alt="dekk i 3d modelleringsprogram" id="dekk">
+    </div>
+</body>
+</html>

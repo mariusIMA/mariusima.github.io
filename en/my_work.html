@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Informasjon som ikke åpent vises til brukeren(med unntak av title og favicon)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Marius</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header id="header1"> <!--Den øverste navigasjonslinjen-->
+        <ul> <!--Gir tag til spesifikke elementer så jeg kan konfigurere dem individuelt. Gidde dem også en "cursor style" for å vise et forskjellig ikon når du har musen på elementet.-->
+            <li><a href="about_me.html" style="cursor:help" class="hyperlink">About me</a></li> 
+            <li class="brackets">|</li>
+            <li><a href="contact.html" style="cursor:help" class="hyperlink">Contact</a></li>
+            <li class="brackets">|</li>
+            <li><a href="index.html" style="cursor:help" class="hyperlink">Homepage</a></li>
+            <li class="brackets">|</li>
+            <li><a href="/mitt_arbeid.html" style="cursor:help" class="hyperlink">Norsk</a></li>
+        </ul>
+    </header>
+    <div class="main"> <!--Selve containeren midt i nettsiden-->
+        <h1>My work<br><br> </h1>
+        <hr>
+        <p>I have been coding as a hobby for a long time now, and i have made a few projects. I have coded the most in HTML, CSS, Python and Batch(system code). I have an example on my work in HTML, and CSS. Check the link down below! I made that website when i was 14 years old, so most of the info is outdated. </p>
+        <a href="https://mariusjohansen.netlify.app" target="0" style="cursor:help">My website!</a> <!--Target="0" for å sende brukeren til en ny fane istedenfor å bytte mellom dem i samme fane-->
+        <hr>
+        <p>On my website, i have a file which simulates a DVD logo moving on the screen, a.k.a a screensaver. I added a picture under this text!</p>
+        <img src="/images/dvd.png" alt="Bilde av et pygame spill">
+        <hr>
+        <p>I also have experience in Blender, which is a 3D modelling program. I have explored the different tools availiable, and i have tried to make a relatively realistic motorcyclewheel. <br>The wheel is modelled after a Suzuki GSX R125 motorcycle, and is also the same in terms of dimensions and actual size. The wheel i tried to copy is down below this text.<br></p>
+        <img src="/images/dekk.png" alt="dekk i 3d modelleringsprogram" id="dekk">
+    </div>
+</body>
+</html>
