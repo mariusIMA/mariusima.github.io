@@ -160,7 +160,7 @@ img:hover {
 }
 
 .main p {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 ::-webkit-scrollbar {
@@ -179,4 +179,5 @@ img:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+
 }
